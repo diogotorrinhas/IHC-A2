@@ -19,7 +19,7 @@ export default function AdoptAnimal() {
         <a class="cta" href="#"><button>Admin</button></a>
       </header>
 
-      <div class="redesbaixoAdoptAnimal">
+      <div class="redesbaixoHomePage">
         <i className="redesidon fab fa-facebook-square"> <a href="https://www.facebook.com/">facebook</a></i>
         <i className="redesidon fab fa-instagram-square"> <a href="https://www.instagram.com/">instagram</a></i>
         <i className="redesidon fab fa-twitter-square"> <a href="https://twitter.com/">twitter</a></i>
@@ -31,11 +31,9 @@ export default function AdoptAnimal() {
 
             <div class="card">
                 <div class="imgBx">
-
                     <img src="https://ireland.apollo.olxcdn.com/v1/files/8phc8l1rj6rh2-PT/image;s=564x846" class="cao"
                     alt=""/>
           <a href="http://localhost:3000/AdoptAnimal/DOGS"> <center><button class="btn1">DOGS</button></center> </a>
-
                 </div>
             </div>
 
@@ -48,8 +46,6 @@ export default function AdoptAnimal() {
 
                 </div>
             </div>
-
-            
 
         </div>
         </bodydAdoptAnimal>
