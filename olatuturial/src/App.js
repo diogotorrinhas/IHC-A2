@@ -1,10 +1,23 @@
-import Topbar from "./topbar/TopBar"
+import Topbar from "./topbar/TopBar";
+import AdoptAnimal from "./topbar/AdoptAnimal";
+
+
+import React , { usestate } from "react";
+
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App(){
 
     return(
         <>
-            <Topbar/>
+            
+
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Topbar />} />
+                    <Route path="/AdoptAnimal" element={<AdoptAnimal />} />
+                </Routes>
+            </Router>   
            
         </>
     );

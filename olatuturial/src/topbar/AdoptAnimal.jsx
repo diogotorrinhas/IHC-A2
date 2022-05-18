@@ -1,15 +1,13 @@
 import "./topbar.css";
 import React from "react";
-import {useHistory} from "react-router-dom";
 
+export default function AdoptAnimal() {
 
+    return(
 
-export default function Topbar() {
-  return (
-
-    <body>
+        <body>
       <header>
-      <h1><a href="http://localhost:3000">WebApp</a></h1>
+      <h1><a href="http://localhost:3000">calhau</a></h1>
         <nav>
           <ul class="nav_links">
             <li><a href="http://localhost:3000/AdoptAnimal">  Adopt Animal</a></li>
@@ -72,5 +70,10 @@ export default function Topbar() {
     </bodyd>
 
     </body>
-  );
+        
+    );
+
+
+
+
 }
