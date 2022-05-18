@@ -19,10 +19,10 @@ export default function AdoptAnimal() {
         <a class="cta" href="#"><button>Admin</button></a>
       </header>
 
-      <div class="redesbaixoHomePage">
-        <i className="redesidon fab fa-facebook-square"> <a href="https://www.facebook.com/">facebook</a></i>
-        <i className="redesidon fab fa-instagram-square"> <a href="https://www.instagram.com/">instagram</a></i>
-        <i className="redesidon fab fa-twitter-square"> <a href="https://twitter.com/">twitter</a></i>
+      <div class="redesbaixoAdoptAnimal">
+        <i className="redesidonAdoptAnimal fab fa-facebook-square"> <a href="https://www.facebook.com/">facebook</a></i>
+        <i className="redesidonAdoptAnimal fab fa-instagram-square"> <a href="https://www.instagram.com/">instagram</a></i>
+        <i className="redesidonAdoptAnimal fab fa-twitter-square"> <a href="https://twitter.com/">twitter</a></i>
       
       </div>
 

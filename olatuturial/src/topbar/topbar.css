@@ -69,16 +69,11 @@ button:hover{
   display: flex;
   padding: 5px 10%;
   justify-content: space-between;
-  
-  position:absolute;
-    z-index:0;
 }
 .redesidonHomePage{
   font-size: 20px;
   cursor: pointer;
 }
-
-
 
 
 /* parte das imagens com containers de informação no meio*/
