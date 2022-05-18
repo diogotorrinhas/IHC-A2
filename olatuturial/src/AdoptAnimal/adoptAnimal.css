@@ -58,11 +58,44 @@ button:hover{
   background-color: rgb(240,240,240);
 }
 
+/*botoes cao e gato*/
+
+.btn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: "montserrat";
+  cursor: pointer;
+  transition:0.8s;
+
+}
+
+.btn1{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: "montserrat";
+  cursor: pointer;
+  transition:0.8s;
+}
+
+.btn2{
+  color: black;
+}
+
+.btn1:hover, .btn2:hover{
+  color: #fff;
+}
+
+
 
 /* navebar de baixo da redes sociais*/
 
-.redesbaixoHomePage{
+.redesbaixoAdoptAnimal{
   background-color: white;
+  
   position: fixed;
   bottom: 0;
   width: 80%;
@@ -73,7 +106,7 @@ button:hover{
   position:absolute;
     z-index:0;
 }
-.redesidonHomePage{
+.redesidonAdoptAnimal{
   font-size: 20px;
   cursor: pointer;
 }
@@ -82,13 +115,13 @@ button:hover{
 
 
 /* parte das imagens com containers de informação no meio*/
-bodyHomePage{
+bodydAdoptAnimal{
 	display:flex;
 	justify-content: center;
-	background: rgb(255, 255, 255);
+	background: white;
 }
 
-.containerHomePage{
+.containerAdoptAnimal{
 
 	position: relative;
 	width:1100px;
@@ -99,12 +132,12 @@ bodyHomePage{
 	margin-top: 0%;
 }
 
-.containerHomePage .card{
+.containerAdoptAnimal .card{
 	width:300px;
 	position: relative;
 	height: 400px;
-	background: rgb(240,240,240);
-	margin:30px 30px;
+	background: white;
+	margin:100px 100px;
 	display:flex;
 	flex-direction: column;
 	box-shadow: white;
@@ -112,7 +145,7 @@ bodyHomePage{
 	margin-top: 2%;
   border-radius: 10px;
 }
-.containerHomePage .card .imgBx{
+.containerAdoptAnimal .card .imgBx{
 	position: relative;
 	width:260px;
 	height: 260px;
@@ -121,7 +154,7 @@ bodyHomePage{
 	
 }
 
-.containerHomePage .card .imgBx img
+.containerAdoptAnimal .card .imgBx img
 {
 	max-width: 100%;
 	border-radius: 10px;
@@ -132,6 +165,15 @@ h2{
   margin-top: 20px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
+}
+
+.cao{
+  clip-path: circle();
+  
+}
+
+.gato{
+  clip-path: circle();
 }
 
 
