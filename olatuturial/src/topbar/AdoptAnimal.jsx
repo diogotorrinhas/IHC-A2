@@ -7,7 +7,7 @@ export default function AdoptAnimal() {
 
         <body>
       <header>
-      <h1><a href="http://localhost:3000">WebApp</a></h1>
+      <h1><a href="http://localhost:3000"><button>WebApp</button></a></h1>
         <nav>
           <ul class="nav_links">
             <li><a href="http://localhost:3000/AdoptAnimal">  Adopt Animal</a></li>
