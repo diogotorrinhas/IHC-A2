@@ -21,9 +21,9 @@ export default function Topbar() {
       </header>
 
       <div class="redesbaixo">
-        <i className="redesidon fab fa-facebook-square"> facebook</i>
-        <i className="redesidon fab fa-instagram-square"> instagram</i>
-        <i className="redesidon fab fa-twitter-square"> twitter</i>
+        <i className="redesidon fab fa-facebook-square"> <a href="https://www.facebook.com/">facebook</a></i>
+        <i className="redesidon fab fa-instagram-square"> <a href="https://www.instagram.com/">instagram</a></i>
+        <i className="redesidon fab fa-twitter-square"> <a href="https://twitter.com/">twitter</a></i>
       
       </div>
 
@@ -38,9 +38,7 @@ export default function Topbar() {
 					
 					<img src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg"
 					alt=""/>
-          <p>Dragon fruit aka pitaya, pitahaya or 
-					strawberry pear, is high in nutrients, fiber and 
-					antioxidants. This superfood smoothie is creamy.
+          <p>Adotar animal
 					</p>
 					
 				</div>
@@ -51,9 +49,7 @@ export default function Topbar() {
 					
 					<img src="https://static.vecteezy.com/system/resources/previews/001/843/828/non_2x/donate-money-for-charity-design-illustration-isolated-on-white-background-free-vector.jpg"
 					alt=""/>
-					<p>Dragon fruit aka pitaya, pitahaya or 
-					strawberry pear, is high in nutrients, fiber and 
-					antioxidants. This superfood smoothie is creamy.
+					<p>Doar
 					</p>
 
 				</div>	
@@ -64,9 +60,7 @@ export default function Topbar() {
 					
 					<img src="https://thumbs.dreamstime.com/b/boston-terrier-puppy-holding-adopt-me-sign-cute-seven-week-old-standing-cardboard-says-please-rescue-54649223.jpg"
 					alt=""/>
-					<p>Dragon fruit aka pitaya, pitahaya or 
-					strawberry pear, is high in nutrients, fiber and 
-					antioxidants. This superfood smoothie is creamy.
+					<p>Ajudar
 					</p>
 				</div>	
 			</div>	

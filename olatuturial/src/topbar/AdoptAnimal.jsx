@@ -18,19 +18,8 @@ export default function AdoptAnimal() {
         <a class="cta" href="#"><button>Admin</button></a>
       </header>
 
-      <div class="redesbaixo">
-        <i className="redesidon fab fa-facebook-square"> facebook</i>
-        <i className="redesidon fab fa-instagram-square"> instagram</i>
-        <i className="redesidon fab fa-twitter-square"> twitter</i>
       
-      </div>
-
-
     </body>
-        
     );
-
-
-
 
 }
