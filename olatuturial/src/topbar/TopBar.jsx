@@ -36,7 +36,8 @@ export default function Topbar() {
 			<div class="card">
 				<div class="imgBx">
 					
-					<img src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg"/>
+					<img src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg"
+					alt=""/>
           <p>Dragon fruit aka pitaya, pitahaya or 
 					strawberry pear, is high in nutrients, fiber and 
 					antioxidants. This superfood smoothie is creamy.
@@ -48,7 +49,8 @@ export default function Topbar() {
 			<div class="card">
 				<div class="imgBx">
 					
-					<img src="https://static.vecteezy.com/system/resources/previews/001/843/828/non_2x/donate-money-for-charity-design-illustration-isolated-on-white-background-free-vector.jpg"/>
+					<img src="https://static.vecteezy.com/system/resources/previews/001/843/828/non_2x/donate-money-for-charity-design-illustration-isolated-on-white-background-free-vector.jpg"
+					alt=""/>
 					<p>Dragon fruit aka pitaya, pitahaya or 
 					strawberry pear, is high in nutrients, fiber and 
 					antioxidants. This superfood smoothie is creamy.
@@ -60,7 +62,8 @@ export default function Topbar() {
 			<div class="card">
 				<div class="imgBx">
 					
-					<img src="https://thumbs.dreamstime.com/b/boston-terrier-puppy-holding-adopt-me-sign-cute-seven-week-old-standing-cardboard-says-please-rescue-54649223.jpg"/>
+					<img src="https://thumbs.dreamstime.com/b/boston-terrier-puppy-holding-adopt-me-sign-cute-seven-week-old-standing-cardboard-says-please-rescue-54649223.jpg"
+					alt=""/>
 					<p>Dragon fruit aka pitaya, pitahaya or 
 					strawberry pear, is high in nutrients, fiber and 
 					antioxidants. This superfood smoothie is creamy.
