@@ -7,7 +7,6 @@ export default function AdoptAnimal() {
       
     <body>
       <header>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>                       
       <h1><a href="http://localhost:3000"><button>WebApp</button></a></h1>
         <nav>
           <ul class="nav_links">
@@ -20,9 +19,9 @@ export default function AdoptAnimal() {
       </header>
 
       <div class="redesbaixoAdoptAnimal">
-        <i className="redesidonAdoptAnimal fab fa-facebook-square"> <a href="https://www.facebook.com/">facebook</a></i>
-        <i className="redesidonAdoptAnimal fab fa-instagram-square"> <a href="https://www.instagram.com/">instagram</a></i>
-        <i className="redesidonAdoptAnimal fab fa-twitter-square"> <a href="https://twitter.com/">twitter</a></i>
+        <i className="redesidonAdoptAnimal fab fa-facebook"> <a href="https://www.facebook.com/">facebook</a></i>
+        <i className="redesidonAdoptAnimal fab fa-instagram"> <a href="https://www.instagram.com/">instagram</a></i>
+        <i className="redesidonAdoptAnimal fab fa-twitter"> <a href="https://twitter.com/">twitter</a></i>
       
       </div>
 
