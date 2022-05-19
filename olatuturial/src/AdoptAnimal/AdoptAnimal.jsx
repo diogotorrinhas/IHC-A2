@@ -22,6 +22,9 @@ export default function AdoptAnimal() {
         <i className="redesidonAdoptAnimal fab fa-facebook"> <a href="https://www.facebook.com/">facebook</a></i>
         <i className="redesidonAdoptAnimal fab fa-instagram"> <a href="https://www.instagram.com/">instagram</a></i>
         <i className="redesidonAdoptAnimal fab fa-twitter"> <a href="https://twitter.com/">twitter</a></i>
+        <i className="redesidonAdoptAnimal"> <a href="">+351 924759488</a></i>
+
+
       
       </div>
 

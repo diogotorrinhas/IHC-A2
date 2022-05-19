@@ -58,32 +58,68 @@ button:hover{
   background-color: rgb(240,240,240);
 }
 
+/*botoes cao e gato*/
+
+.btn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: "montserrat";
+  cursor: pointer;
+  transition:0.8s;
+
+}
+
+.btn1{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: "montserrat";
+  cursor: pointer;
+  transition:0.8s;
+}
+
+.btn2{
+  color: black;
+}
+
+.btn1:hover, .btn2:hover{
+  color: #fff;
+}
+
+
 
 /* navebar de baixo da redes sociais*/
 
-.redesbaixoHomePage{
+.redesbaixoDonate{
   background-color: white;
+  
   position: fixed;
   bottom: 0;
   width: 80%;
   display: flex;
   padding: 5px 10%;
   justify-content: space-between;
+  
 }
-.redesidonHomePage{
+.redesidonDonate{
   font-size: 20px;
   cursor: pointer;
 }
 
 
+
+
 /* parte das imagens com containers de informação no meio*/
-bodyHomePage{
+bodydDonate{
 	display:flex;
 	justify-content: center;
 	background: white;
 }
 
-.containerHomePage{
+.containerDonate{
 
 	position: relative;
 	width:1100px;
@@ -94,12 +130,12 @@ bodyHomePage{
 	margin-top: 0%;
 }
 
-.containerHomePage .card{
-	width:300px;
+.containerDonate .card{
+	width:5000px;
 	position: relative;
-	height: 400px;
-	background: rgb(240,240,240);
-	margin:30px 30px;
+	height: 200px;
+	background: rgb(248, 248, 248);
+	margin:100px 100px;
 	display:flex;
 	flex-direction: column;
 	box-shadow: white;
@@ -107,16 +143,59 @@ bodyHomePage{
 	margin-top: 2%;
   border-radius: 10px;
 }
-.containerHomePage .card .imgBx{
+.containerDonate .card .imgBx{
 	position: relative;
-	width:260px;
-	height: 260px;
-	top: 20px;
-	left:20px;
+	width:1000px;
+	height: 1000px;
+	top: 40px;
+	left:0px;
 	
 }
 
-.containerHomePage .card .imgBx img
+
+
+.containerDonate .card .imgBx img
+{
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+.containerDonate2{
+
+	position: relative;
+	width:1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 0%;
+}
+
+.containerDonate2 .card{
+	width:5000px;
+	position: relative;
+	height: 200px;
+	background: rgb(248, 248, 248);
+	margin:100px 100px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: white;
+	transition: all 0.3s ease 0s;
+	margin-top: 2%;
+  border-radius: 10px;
+}
+.containerDonate2 .card .imgBx{
+	position: relative;
+	width:1000px;
+	height: 1000px;
+	top: 40px;
+	left:0px;
+	
+}
+
+
+
+.containerDonate2 .card .imgBx img
 {
 	max-width: 100%;
 	border-radius: 10px;
@@ -127,6 +206,22 @@ h2{
   margin-top: 20px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.cao{
+  clip-path: circle();
+  
+}
+
+.gato{
+  clip-path: circle();
 }
 
 

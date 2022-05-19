@@ -24,11 +24,12 @@ export default function Topbar() {
         <i className="redesidonHomePage fab fa-facebook"> <a href="https://www.facebook.com/">facebook</a></i>
         <i className="redesidonHomePage fab fa-instagram"> <a href="https://www.instagram.com/">instagram</a></i>
         <i className="redesidonHomePage fab fa-twitter"> <a href="https://twitter.com/">twitter</a></i>
+        <i className="redesidonAdoptAnimal"> <a href="">+351 924759488</a></i>
       
       </div>
 
 
-      <center><h2>Bem vindo</h2></center>
+      <center><h2>Welcome</h2></center>
 
     <bodyHomePage>
       <div class="containerHomePage">
