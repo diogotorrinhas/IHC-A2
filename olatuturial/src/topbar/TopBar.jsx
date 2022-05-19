@@ -21,9 +21,9 @@ export default function Topbar() {
       </header>
 
       <div class="redesbaixoHomePage">
-        <i className="redesidonHomePage fab fa-facebook-square"> <a href="https://www.facebook.com/">facebook</a></i>
-        <i className="redesidonHomePage fab fa-instagram-square"> <a href="https://www.instagram.com/">instagram</a></i>
-        <i className="redesidonHomePage fab fa-twitter-square"> <a href="https://twitter.com/">twitter</a></i>
+        <i className="redesidonHomePage fab fa-facebook"> <a href="https://www.facebook.com/">facebook</a></i>
+        <i className="redesidonHomePage fab fa-instagram"> <a href="https://www.instagram.com/">instagram</a></i>
+        <i className="redesidonHomePage fab fa-twitter"> <a href="https://twitter.com/">twitter</a></i>
       
       </div>
 
