@@ -181,15 +181,15 @@ bodydDonate{
 	flex-direction: column;
 	box-shadow: white;
 	transition: all 0.3s ease 0s;
-	margin-top: -5%;
+	margin-top: -4%;
   border-radius: 10px;
 }
 .containerDonate2 .card .imgBx{
 	position: relative;
 	width:1000px;
 	height: 1000px;
-	top: 40px;
-	left:0px;
+	top: 0px;
+	left:30px;
 	
 }
 
