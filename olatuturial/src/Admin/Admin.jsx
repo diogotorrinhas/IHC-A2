@@ -26,8 +26,7 @@ export default function Admin() {
 						<label for="">Password</label>
 						<input type="password" class="form-control" required />
 					</div>
-						<button class="btnadmin" href="http://localhost:3000">Login</button>
-						{/* Carregar no botão de login e ir para a página, para testar, foundanimal mas não está a ir para a página não sei pq*/ }
+						<button class="btnadmin" href="">Login</button>
 				</form>
 			</div>
 		</bodyadmin>
