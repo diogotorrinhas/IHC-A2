@@ -17,6 +17,14 @@ export default function Donate() {
           <a class="cta" href="#"><button>Admin</button></a>
         </header>
 
+        <div class="redesbaixoDonate">
+        <i className="redesidonDonate fab fa-facebook"> <a href="https://www.facebook.com/">facebook</a></i>
+        <i className="redesidonDonate fab fa-instagram"> <a href="https://www.instagram.com/">instagram</a></i>
+        <i className="redesidonDonate fab fa-twitter"> <a href="https://twitter.com/">twitter</a></i>
+        <i className="redesidonDonate"> <a href="">+351 924759488</a></i>
+      
+      </div>
+
         <bodydDonate>
         <div class="containerDonate">
 
@@ -40,6 +48,8 @@ export default function Donate() {
                 <div class="imgBx">
                 <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/4974857-donation-for-pets-flat-design-long-shadow-glyph-icon-animals-bem-estar-coracao-com-gato-e-cachorro-focinho-dentro-de-silhueta-ilustracao-vetor.jpg" class="cao"
                     alt=""/>
+                    
+                    
                 </div>
             </div>
 
