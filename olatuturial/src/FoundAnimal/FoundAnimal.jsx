@@ -14,7 +14,7 @@ export default function FoundAnimal() {
               <li><a href="http://localhost:3000/FoundAnimal">  Found Animal</a></li>
             </ul>
           </nav>
-          <a class="cta" href="#"><button>Admin</button></a>
+          <a class="cta" href="http://localhost:3000/Admin"><button>Admin</button></a>
         </header>
 
         
