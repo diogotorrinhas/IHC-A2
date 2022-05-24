@@ -30,10 +30,10 @@ export default function Donate() {
 
             <div class="card">
                 <div class="imgBx">
-                    <center><h3>Welcome to the Donation Page!</h3></center>
-                    <center><h3>Help The Animals!</h3></center>
-                    <center><h3>All the money will be used only for Animal Care!</h3></center>
-                    <center><h3>You can donate by the methods shown below!</h3></center>
+                    <center><h3><b>Welcome to the Donation Page!</b></h3></center>
+                    <center><h3><b>Help The Animals!</b></h3></center>
+                    <center><h3><b>All the money will be used only for Animal Care!</b></h3></center>
+                    <center><h3><b>You can donate by the methods shown below!</b></h3></center>
                 </div>
             </div>
 
@@ -48,9 +48,12 @@ export default function Donate() {
                 <div class="imgBx">
                 <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/4974857-donation-for-pets-flat-design-long-shadow-glyph-icon-animals-bem-estar-coracao-com-gato-e-cachorro-focinho-dentro-de-silhueta-ilustracao-vetor.jpg" class="cao"
                     alt=""/>
-                    
-                    
                 </div>
+                <div class="txtBx">
+                <h3><b>MBWAY:</b> 924759488</h3>
+                <h3><b>IBAN:</b> PT50 0010 0000 5209 0190 0019 1</h3>
+                </div>
+                
             </div>
 
 

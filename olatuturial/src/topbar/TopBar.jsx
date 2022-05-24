@@ -39,7 +39,7 @@ export default function Topbar() {
 					
 					<img src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg"
 					alt=""/>
-          <p><center>Adotar animal</center>
+          <p><center>If you are interested in finding an animal to adopt, you are in the right place. Never forget an adoption has to be responsible!</center>
 					</p>
 					
 				</div>
@@ -50,7 +50,9 @@ export default function Topbar() {
 					
 					<img src="https://static.vecteezy.com/system/resources/previews/001/843/828/non_2x/donate-money-for-charity-design-illustration-isolated-on-white-background-free-vector.jpg"
 					alt=""/>
-					<p><center>Doar</center>
+					<p><center>Help the animals! Donate to Us! </center>
+					</p>
+          <p><center>All the money will go entirely to the animals. Such as: Medical care, food, wellness, etc!</center>
 					</p>
 
 				</div>	
@@ -61,8 +63,9 @@ export default function Topbar() {
 					
 					<img src="https://thumbs.dreamstime.com/b/boston-terrier-puppy-holding-adopt-me-sign-cute-seven-week-old-standing-cardboard-says-please-rescue-54649223.jpg"
 					alt=""/>
-					<p><center>Ajudar</center>
+					<p><center>If you find an animal on the street in need of help, please don't be indifferent and help him!</center>
 					</p>
+          
 				</div>	
 			</div>	
 			
