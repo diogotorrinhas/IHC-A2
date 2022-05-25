@@ -47,7 +47,7 @@ export default function Slider2() {
 
             <div class="card">
                 <div class="imgBx">
-                    <center><h3><b>Hi, I'm Kiko!</b></h3></center>
+                    <center><h3><b>Hi, I'm Luna!</b></h3></center>
                     <center><h3><b>Below are my photos and information!</b></h3></center>
                     <center><h3><b>If you want to adopt me, contact my Holder!</b></h3></center>
                     <center><h3><b>Please, Adopt Me! :(</b></h3></center>
@@ -91,14 +91,15 @@ export default function Slider2() {
 
             <div class="card">
                 <div class="imgBx">
-                    <center><h3><b>Name:</b>&nbsp;Kiko</h3></center>
-                    <center><h3><b>Breed:</b>&nbsp;Rafeiro</h3></center>
-                    <center><h3><b>Age:</b>&nbsp;4 Weeks</h3></center>
-                    <center><h3><b>Size:</b>&nbsp;Medium</h3></center>
+                    <center><h3><b>Name:</b>&nbsp;Luna</h3></center>
+                    <center><h3><b>Breed:</b>&nbsp;Cane Corso</h3></center>
+                    <center><h3><b>Sex:</b>&nbsp;Female</h3></center>
+                    <center><h3><b>Age:</b>&nbsp;2 Years</h3></center>
+                    <center><h3><b>Size:</b>&nbsp;Large</h3></center>
                     <center><h3><b>Vaccines:</b></h3></center>
                     <center><h3>Vaccinated and Sterilized</h3></center>
                     <center><h3><b>More Information:</b></h3></center>
-                    <center><h3>Hyperactive, Playful, Loves to walk, Only eats dog food</h3></center>
+                    <center><h3>Hyperactive, Playful, Loves to walk</h3></center>
                 </div>
             </div>
 
@@ -109,12 +110,12 @@ export default function Slider2() {
                     alt=""/>
                 </div>
                 <div class="textHolder">
-                    <center><h3><b>Name:</b>&nbsp;Joana Sousa</h3></center>
+                    <center><h3><b>Name:</b>&nbsp;Rodrigo</h3></center>
                     <center><h3><b>Email:</b></h3></center>
-                    <center><h3>joanasousa@gmail.com</h3></center>
-                    <center><h3><b>Nº Telefone:</b>&nbsp;914583296</h3>
+                    <center><h3>rodrigo123@gmail.com</h3></center>
+                    <center><h3><b>Nº Telefone:</b>&nbsp;914363296</h3>
                     </center><center><h3><b>Morada:</b></h3></center>
-                    <center><h3>R. do Eng. Carlos Boia 12, 3810-702 Aveiro</h3></center>
+                    <center><h3>Rua do Brasil 320, 3030-243 Coimbra</h3></center>
                 </div>
             </div>
 

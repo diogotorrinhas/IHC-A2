@@ -2,7 +2,7 @@ import "./dogs.css";
 import React from "react";
 
 
-export default function Dogs() {
+export default function FilterShort() {
   return (
 
     
@@ -20,7 +20,7 @@ export default function Dogs() {
         <a class="cta" href="http://localhost:3000/Admin"><button>Admin</button></a>
       </header>
 
-  
+     
 
       <bodydDogs>
         <div class="containerDonate">
@@ -51,33 +51,6 @@ export default function Dogs() {
 
         <section class="containerAnimalBox">
           <div class="cardAnimalBox">
-            <div class="cardAnimalBox-image card-1"></div>
-              <h2>Kiko</h2>
-              <p><b>Name:</b> Kiko</p>
-              <p><b>Sex:</b> Male</p>
-              <p><b>Age:</b> 4 Weeks</p>
-              <p><b>Size:</b> Medium</p>
-            <a href="http://localhost:3000/AdoptAnimal/DOGS/Dog1"><h3>More Informations</h3></a>
-          </div>
-          <div class="cardAnimalBox">
-            <div class="cardAnimalBox-image card-2"></div>
-              <h2>Luna</h2>
-              <p><b>Name:</b> Luna</p>
-              <p><b>Sex:</b> Female</p>
-              <p><b>Age:</b> 2 Years</p>
-              <p><b>Size:</b> Large</p>
-              <a href="http://localhost:3000/AdoptAnimal/DOGS/Dog2"><h3>More Informations</h3></a>
-          </div>
-          <div class="cardAnimalBox">
-            <div class="cardAnimalBox-image card-3"></div>
-              <h2>Nico</h2>
-              <p><b>Name:</b> Nico</p>
-              <p><b>Sex:</b> Male</p>
-              <p><b>Age:</b> 5 Years</p>
-              <p><b>Size:</b> Large</p>
-              <a href="http://localhost:3000/AdoptAnimal/DOGS/Dog3"><h3>More Informations</h3></a>
-          </div>
-          <div class="cardAnimalBox">
             <div class="cardAnimalBox-image card-4"></div>
               <h2>Benji</h2>
               <p><b>Name:</b> Benji</p>
@@ -85,15 +58,6 @@ export default function Dogs() {
               <p><b>Age:</b> 2 Years</p>
               <p><b>Size:</b> Short</p>
               <a href="http://localhost:3000/AdoptAnimal/DOGS/Dog4"><h3>More Informations</h3></a>
-          </div>
-          <div class="cardAnimalBox">
-            <div class="cardAnimalBox-image card-5"></div>
-              <h2>Lana</h2>
-              <p><b>Name:</b> Lana</p>
-              <p><b>Sex:</b> Female</p>
-              <p><b>Age:</b> 7 Years</p>
-              <p><b>Size:</b> Medium</p>
-              <a href="http://localhost:3000/AdoptAnimal/DOGS/Dog5"><h3>More Informations</h3></a>
           </div>
           <div class="cardAnimalBox">
             <div class="cardAnimalBox-image card-6"></div>

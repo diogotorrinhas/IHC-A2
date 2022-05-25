@@ -47,7 +47,7 @@ export default function Slider4() {
 
             <div class="card">
                 <div class="imgBx">
-                    <center><h3><b>Hi, I'm Kiko!</b></h3></center>
+                    <center><h3><b>Hi, I'm Benji!</b></h3></center>
                     <center><h3><b>Below are my photos and information!</b></h3></center>
                     <center><h3><b>If you want to adopt me, contact my Holder!</b></h3></center>
                     <center><h3><b>Please, Adopt Me! :(</b></h3></center>
@@ -65,7 +65,7 @@ export default function Slider4() {
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <img 
-                        src={process.env.PUBLIC_URL + `/Imgs/ImgsDog2/img${index + 1}.jpg`} 
+                        src={process.env.PUBLIC_URL + `/Imgs/ImgsDog4/img${index + 1}.jpg`} 
                         />
                     </div>
                 )
@@ -91,30 +91,30 @@ export default function Slider4() {
 
             <div class="card">
                 <div class="imgBx">
-                    <center><h3><b>Name:</b>&nbsp;Kiko</h3></center>
-                    <center><h3><b>Breed:</b>&nbsp;Rafeiro</h3></center>
-                    <center><h3><b>Age:</b>&nbsp;4 Weeks</h3></center>
-                    <center><h3><b>Size:</b>&nbsp;Medium</h3></center>
+                    <center><h3><b>Name:</b>&nbsp;Benji</h3></center>
+                    <center><h3><b>Breed:</b>&nbsp;Spitz Alemão-Anão</h3></center>
+                    <center><h3><b>Sex:</b>&nbsp;Male</h3></center>
+                    <center><h3><b>Age:</b>&nbsp;2 Years</h3></center>
+                    <center><h3><b>Size:</b>&nbsp;Short</h3></center>
                     <center><h3><b>Vaccines:</b></h3></center>
                     <center><h3>Vaccinated and Sterilized</h3></center>
                     <center><h3><b>More Information:</b></h3></center>
-                    <center><h3>Hyperactive, Playful, Loves to walk, Only eats dog food</h3></center>
+                    <center><h3>Hyperactive, Playful, Loves to run, Loves to sleep, Only eats dog food</h3></center>
                 </div>
             </div>
 
             <div class="cardHolder">
-                <center><h3><b>Holder:</b>Person</h3></center>
+                <center><h3><b>Holder:</b>Institution</h3></center>
                 <div class="imgBxHolder">
                     <img src="https://img2.gratispng.com/20180509/klq/kisspng-person-logo-computer-icons-5af2c2026fcf79.460327751525858818458.jpg" class="gato"
                     alt=""/>
                 </div>
                 <div class="textHolder">
-                    <center><h3><b>Name:</b>&nbsp;Joana Sousa</h3></center>
                     <center><h3><b>Email:</b></h3></center>
-                    <center><h3>joanasousa@gmail.com</h3></center>
-                    <center><h3><b>Nº Telefone:</b>&nbsp;914583296</h3>
+                    <center><h3>animalsInstit@gmail.com</h3></center>
+                    <center><h3><b>Nº Telefone:</b>&nbsp;924759488</h3>
                     </center><center><h3><b>Morada:</b></h3></center>
-                    <center><h3>R. do Eng. Carlos Boia 12, 3810-702 Aveiro</h3></center>
+                    <center><h3>Ornimundo, R. Dom Manuel Barbuda e Vasconcelos 18.2, 3810-498 Aveiro</h3></center>
                 </div>
             </div>
 

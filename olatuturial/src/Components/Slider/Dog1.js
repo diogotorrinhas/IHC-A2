@@ -93,6 +93,7 @@ export default function Slider1() {
                 <div class="imgBx">
                     <center><h3><b>Name:</b>&nbsp;Kiko</h3></center>
                     <center><h3><b>Breed:</b>&nbsp;Rafeiro</h3></center>
+                    <center><h3><b>Sex:</b>&nbsp;Male</h3></center>
                     <center><h3><b>Age:</b>&nbsp;4 Weeks</h3></center>
                     <center><h3><b>Size:</b>&nbsp;Medium</h3></center>
                     <center><h3><b>Vaccines:</b></h3></center>

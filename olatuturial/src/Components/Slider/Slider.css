@@ -176,7 +176,7 @@ button:hover{
   
   position: fixed;
   bottom: 0;
-  width: 80%;
+  width: 100%;
   display: flex;
   padding: 0px 10%;
   justify-content: space-between;
@@ -212,7 +212,7 @@ bodydSlider{
 	width:350px;
 	position: relative;
 	height: 400px;
-	background: rgb(127, 186, 101);
+	background: rgb(197, 191, 191);
 	margin:100px 100px;
 	display:flex;
 	flex-direction: column;
@@ -241,7 +241,7 @@ bodydSlider{
 	width:350px;
 	position: relative;
 	height: 400px;
-	background: rgb(127, 186, 101);
+	background: rgb(197, 191, 191);
 	margin:100px 100px;
 	display:flex;
 	flex-direction: column;

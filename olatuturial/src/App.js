@@ -5,7 +5,6 @@ import Donate from "./Donate/Donate";
 import FoundAnimal from "./FoundAnimal/FoundAnimal";
 import Topbar from "./topbar/TopBar";
 import Admin from "./Admin/Admin";
-import Validate from "./Validate/Validate";
 import Dogs from "./Dogs/Dogs"
 import Dog1 from "./Components/Slider/Dog1"
 import Dog2 from "./Components/Slider/Dog2"
@@ -13,6 +12,13 @@ import Dog3 from "./Components/Slider/Dog3"
 import Dog4 from "./Components/Slider/Dog4"
 import Dog5 from "./Components/Slider/Dog5"
 import Dog6 from "./Components/Slider/Dog6"
+import Filter3years from "./Dogs/Filter3years"
+import FilterShort from "./Dogs/FilterShort"
+import FilterMedium from "./Dogs/FilterMedium"
+import FilterLarge from "./Dogs/FilterLarge"
+import FilterMale from "./Dogs/FilterMale"
+import FilterFemale from "./Dogs/FilterFemale"
+import Validate from "./Validate/Validate"
 
 
 function App() {
@@ -36,6 +42,12 @@ function App() {
 					<Route path="/AdoptAnimal/DOGS/Dog4" element={ <Dog4 /> } />
 					<Route path="/AdoptAnimal/DOGS/Dog5" element={ <Dog5 /> } />
 					<Route path="/AdoptAnimal/DOGS/Dog6" element={ <Dog6 /> } />
+					<Route path="/AdoptAnimal/DOGS/until3years" element={ <Filter3years /> } />
+					<Route path="/AdoptAnimal/DOGS/short" element={ <FilterShort /> } />
+					<Route path="/AdoptAnimal/DOGS/medium" element={ <FilterMedium /> } />
+					<Route path="/AdoptAnimal/DOGS/large" element={ <FilterLarge /> } />
+					<Route path="/AdoptAnimal/DOGS/male" element={ <FilterMale /> } />
+					<Route path="/AdoptAnimal/DOGS/female" element={ <FilterFemale /> } />
 				</Routes>
 			</Router>
 

@@ -98,7 +98,7 @@ h1{
     
     position: fixed;
     bottom: 0;
-    width: 80%;
+    width: 100%;
     display: flex;
     padding: 0px 10%;
     justify-content: space-between;
@@ -272,5 +272,78 @@ section ul li.active{
     right: 0;
     opacity: 1;
     z-index: -1;
+}
+
+/* containers para as caixas com cada animal */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.containerAnimalBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardAnimalBox{
+  background: rgb(197, 191, 191);
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.cardAnimalBox-image{
+  background-color: aqua;
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.card-1{
+  background-image: url('https://besthqwallpapers.com/Uploads/2-6-2018/54901/thumb2-golden-retriever-puppy-labrador-bokeh-running-dog.jpg');
+}
+.card-2{
+  background-image: url('https://www.petz.com.br/cachorro/racas/cane-corso/img/cane-corso-caracteristicas-guia-racas.jpg');
+}
+.card-3{
+  background-image: url('https://www.petlove.com.br/images/breeds/193103/profile/original/pastor_alemao-p.jpg?1532539270');
+}
+.card-4{
+  background-image: url('https://guiaanimal.net/uploads/content/image/23123/AdobeStock_53177679.jpeg');
+}
+.card-5{
+  background-image: url('https://www.hojeemdia.com.br/image/policy:1.707351.1628584899:1628584899/image.jpg?f=2x1&w=1200&');
+}
+.card-6{
+  background-image: url('https://animais.culturamix.com/blog/wp-content/gallery/caes-de-raca-pequena-2-2/Caes-De-Raca-Pequena-4.jpg');
+}
+
+.cardAnimalBox h2{
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cardAnimalBox p {
+  padding: 10px;
+}
+
+.cardAnimalBox a{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 40px;
+}
+
+.cardAnimalBox:hover{
+  background-color: rgb(62,62,62);
+  color:white;
+  transform: scale(1.03);
+  transition: all 1s ease;
+  text-decoration: none;
 }
 

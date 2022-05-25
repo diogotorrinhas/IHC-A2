@@ -47,7 +47,7 @@ export default function Slider5() {
 
             <div class="card">
                 <div class="imgBx">
-                    <center><h3><b>Hi, I'm Kiko!</b></h3></center>
+                    <center><h3><b>Hi, I'm Lana!</b></h3></center>
                     <center><h3><b>Below are my photos and information!</b></h3></center>
                     <center><h3><b>If you want to adopt me, contact my Holder!</b></h3></center>
                     <center><h3><b>Please, Adopt Me! :(</b></h3></center>
@@ -65,7 +65,7 @@ export default function Slider5() {
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <img 
-                        src={process.env.PUBLIC_URL + `/Imgs/ImgsDog2/img${index + 1}.jpg`} 
+                        src={process.env.PUBLIC_URL + `/Imgs/ImgsDog5/img${index + 1}.jpg`} 
                         />
                     </div>
                 )
@@ -91,14 +91,15 @@ export default function Slider5() {
 
             <div class="card">
                 <div class="imgBx">
-                    <center><h3><b>Name:</b>&nbsp;Kiko</h3></center>
+                    <center><h3><b>Name:</b>&nbsp;Lana</h3></center>
                     <center><h3><b>Breed:</b>&nbsp;Rafeiro</h3></center>
-                    <center><h3><b>Age:</b>&nbsp;4 Weeks</h3></center>
+                    <center><h3><b>Sex:</b>&nbsp;Female</h3></center>
+                    <center><h3><b>Age:</b>&nbsp;7 years</h3></center>
                     <center><h3><b>Size:</b>&nbsp;Medium</h3></center>
                     <center><h3><b>Vaccines:</b></h3></center>
                     <center><h3>Vaccinated and Sterilized</h3></center>
                     <center><h3><b>More Information:</b></h3></center>
-                    <center><h3>Hyperactive, Playful, Loves to walk, Only eats dog food</h3></center>
+                    <center><h3>Hyperactive, Playful, Loves to walk, Loves to Sleep</h3></center>
                 </div>
             </div>
 
@@ -109,12 +110,12 @@ export default function Slider5() {
                     alt=""/>
                 </div>
                 <div class="textHolder">
-                    <center><h3><b>Name:</b>&nbsp;Joana Sousa</h3></center>
+                    <center><h3><b>Name:</b>&nbsp;Lara Almeida</h3></center>
                     <center><h3><b>Email:</b></h3></center>
-                    <center><h3>joanasousa@gmail.com</h3></center>
-                    <center><h3><b>Nº Telefone:</b>&nbsp;914583296</h3>
+                    <center><h3>laraAlmeida@gmail.com</h3></center>
+                    <center><h3><b>Nº Telefone:</b>&nbsp;914589196</h3>
                     </center><center><h3><b>Morada:</b></h3></center>
-                    <center><h3>R. do Eng. Carlos Boia 12, 3810-702 Aveiro</h3></center>
+                    <center><h3>R. de Angola 12 r/c Esq, 8500-547 Portimão</h3></center>
                 </div>
             </div>
 
