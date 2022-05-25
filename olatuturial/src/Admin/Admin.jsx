@@ -16,7 +16,7 @@ export default function Admin() {
 
 		<bodyadmin>
 			<div class="containeradmin">
-				<form action='http://localhost:3000'>
+				<form action='http://localhost:3000/Validate'>
 						<h1><center>Login</center></h1>
 					<div class='form-group'>
 						<label for="">Email</label>

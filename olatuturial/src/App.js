@@ -5,6 +5,7 @@ import Donate from "./Donate/Donate";
 import FoundAnimal from "./FoundAnimal/FoundAnimal";
 import Topbar from "./topbar/TopBar";
 import Admin from "./Admin/Admin";
+import Validate from "./Validate/Validate";
 import Dogs from "./Dogs/Dogs"
 import Dog1 from "./Components/Slider/Dog1"
 import Dog2 from "./Components/Slider/Dog2"
@@ -27,6 +28,7 @@ function App() {
 					<Route path="/Donate" element={ <Donate /> } />
 					<Route path="/FoundAnimal" element={ <FoundAnimal /> } />
 					<Route path="/Admin" element={ <Admin /> } />
+					<Route path="/Validate" element={ <Validate /> } />
 					<Route path="/AdoptAnimal/DOGS" element={ <Dogs /> } />
 					<Route path="/AdoptAnimal/DOGS/Dog1" element={ <Dog1 /> } />
 					<Route path="/AdoptAnimal/DOGS/Dog2" element={ <Dog2 /> } />
