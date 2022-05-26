@@ -13,8 +13,8 @@ export default function Dogs() {
         <nav>
           <ul class="nav_links">
             <li><a href="http://localhost:3000/AdoptAnimal">  <hcorvermelha>Adopt Animal</hcorvermelha></a></li>
-            <li><a href="http://localhost:3000/Donate">  Donate</a></li>
-            <li><a href="http://localhost:3000/FoundAnimal">  Found Animal</a></li>
+            <li><a href="http://localhost:3000/Donate">Donate</a></li>
+            <li><a href="http://localhost:3000/FoundAnimal">Found Animal</a></li>
           </ul>
         </nav>
         <a class="cta" href="http://localhost:3000/Admin"><button>Admin</button></a>
