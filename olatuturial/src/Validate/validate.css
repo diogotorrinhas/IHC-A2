@@ -18,7 +18,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     padding: 25px 10%;
-    background-color: rgb(240,240,240);
+    background-color: rgb(191, 240, 162);
   
   }
   
@@ -40,13 +40,13 @@ h1{
   }
   
   .nav_links li a:hover{
-    color:red;
+    color:white;
     transition: all 0.3s ease 0s;
   }
   
   button{
     padding: 9px 25px;
-    background-color: rgb(225,225,225);
+    background-color:rgb(225, 255, 208);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -54,7 +54,7 @@ h1{
   }
   
   button:hover{
-    background-color: rgb(240,240,240);
+    background-color: rgb(191, 240, 162);
   }
 
 
@@ -69,7 +69,7 @@ sectionvalidate{
 
 .cardvalidate{
 
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(225, 255, 208);
     width: 800px;
     display: flex;
     border-radius: 10px;

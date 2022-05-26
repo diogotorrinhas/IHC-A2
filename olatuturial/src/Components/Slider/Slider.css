@@ -212,7 +212,7 @@ bodydSlider{
 	width:350px;
 	position: relative;
 	height: 400px;
-	background: rgb(197, 191, 191);
+	background: rgb(225, 255, 208);
 	margin:100px 100px;
 	display:flex;
 	flex-direction: column;
@@ -241,7 +241,7 @@ bodydSlider{
 	width:350px;
 	position: relative;
 	height: 400px;
-	background: rgb(197, 191, 191);
+	background: rgb(225, 255, 208);
 	margin:100px 100px;
 	display:flex;
 	flex-direction: column;
@@ -291,6 +291,7 @@ h2{
 .gato{
   clip-path: circle();
 }
+
 
 
 

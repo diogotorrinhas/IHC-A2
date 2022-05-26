@@ -1,8 +1,8 @@
-import "./dogs.css";
+import "./cats.css";
 import React from "react";
 
 
-export default function FilterMedium() {
+export default function FilterCatShort() {
   return (
 
     
@@ -20,7 +20,7 @@ export default function FilterMedium() {
         <a class="cta" href="http://localhost:3000/Admin"><button>Admin</button></a>
       </header>
 
-     
+    
 
       <bodydDogs>
         <div class="containerDonate">
@@ -39,35 +39,26 @@ export default function FilterMedium() {
         </bodydDogs>
         <bodydDogs>
         <div class= "containerdif">
-          <a href="http://localhost:3000/AdoptAnimal/DOGS"><button class="btn-2">All</button></a>
-          <a href="/AdoptAnimal/DOGS/until3years"><button class="btn-2">Até 3 anos</button></a>
-          <a href="/AdoptAnimal/DOGS/short"><button class="btn-2">Porte Pequeno</button></a>
-          <a href="/AdoptAnimal/DOGS/medium"><button class="btn-2">Porte Médio</button></a>
-          <a href="/AdoptAnimal/DOGS/large"><button class="btn-2">Porte Grande</button></a>
-          <a href="/AdoptAnimal/DOGS/male"><button class="btn-2">Macho</button></a>
-          <a href="/AdoptAnimal/DOGS/female"><button class="btn-2">Fêmea</button></a>
+          <a href="http://localhost:3000/AdoptAnimal/CATS"><button class="btn-2">All</button></a>
+          <a href="/AdoptAnimal/CATS/until3years"><button class="btn-2">Until 3 years</button></a>
+          <a href="/AdoptAnimal/CATS/male"><button class="btn-2">Male</button></a>
+          <a href="/AdoptAnimal/CATS/female"><button class="btn-2">Female</button></a>
+          <a href="/AdoptAnimal/CATS/shortCoat"><button class="btn-2">Short Coat</button></a>
+          <a href="/AdoptAnimal/CATS/mediumCoat"><button class="btn-2">Medium Coat</button></a>
+          <a href="/AdoptAnimal/CATS/longCoat"><button class="btn-2">Long Coat</button></a>
         </div>
         </bodydDogs>
 
         <section class="containerAnimalBox">
           <div class="cardAnimalBox">
-            <div class="cardAnimalBox-image card-1"></div>
-              <h2>Kiko</h2>
-              <p><b>Name:</b> Kiko</p>
-              <p><b>Sex:</b> Male</p>
-              <p><b>Age:</b> 4 Weeks</p>
-              <p><b>Size:</b> Medium</p>
-            <a href="http://localhost:3000/AdoptAnimal/DOGS/Dog1"><h3>More Informations</h3></a>
-          </div>
-          <div class="cardAnimalBox">
-            <div class="cardAnimalBox-image card-5"></div>
-              <h2>Lana</h2>
-              <p><b>Name:</b> Lana</p>
+            <div class="cardAnimalBox-image cardcat-4"></div>
+              <h2>Amora</h2>
+              <p><b>Name:</b> Amora</p>
               <p><b>Sex:</b> Female</p>
-              <p><b>Age:</b> 7 Years</p>
-              <p><b>Size:</b> Medium</p>
-              <a href="http://localhost:3000/AdoptAnimal/DOGS/Dog5"><h3>More Informations</h3></a>
-          </div>
+              <p><b>Age:</b> 2 Years</p>
+              <p><b>Coat Type:</b> Short</p>
+              <a href="http://localhost:3000/AdoptAnimal/CATS/Cat4"><h3>More Informations</h3></a>
+            </div>
         </section>
     </body>
   );

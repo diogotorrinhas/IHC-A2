@@ -19,6 +19,19 @@ import FilterLarge from "./Dogs/FilterLarge"
 import FilterMale from "./Dogs/FilterMale"
 import FilterFemale from "./Dogs/FilterFemale"
 import Validate from "./Validate/Validate"
+import Cats from "./Cats/Cats"
+import Cat1 from "./Components/Slider/Cat1"
+import Cat2 from "./Components/Slider/Cat2"
+import Cat3 from "./Components/Slider/Cat3"
+import Cat4 from "./Components/Slider/Cat4"
+import Cat5 from "./Components/Slider/Cat5"
+import Cat6 from "./Components/Slider/Cat6"
+import FilterCat3years from "./Cats/FilterCat3years"
+import FilterCatShort from "./Cats/FilterCatShort"
+import FilterCatMedium from "./Cats/FilterCatMedium"
+import FilterCatLong from "./Cats/FilterCatLong"
+import FilterCatMale from "./Cats/FilterCatMale"
+import FilterCatFemale from "./Cats/FilterCatFemale"
 
 
 function App() {
@@ -48,6 +61,20 @@ function App() {
 					<Route path="/AdoptAnimal/DOGS/large" element={ <FilterLarge /> } />
 					<Route path="/AdoptAnimal/DOGS/male" element={ <FilterMale /> } />
 					<Route path="/AdoptAnimal/DOGS/female" element={ <FilterFemale /> } />
+					<Route path="/AdoptAnimal/CATS" element={ <Cats /> } />
+					<Route path="/AdoptAnimal/CATS/Cat1" element={ <Cat1 /> } />
+					<Route path="/AdoptAnimal/CATS/Cat2" element={ <Cat2 /> } />
+					<Route path="/AdoptAnimal/CATS/Cat3" element={ <Cat3 /> } />
+					<Route path="/AdoptAnimal/CATS/Cat4" element={ <Cat4 /> } />
+					<Route path="/AdoptAnimal/CATS/Cat5" element={ <Cat5 /> } />
+					<Route path="/AdoptAnimal/CATS/Cat6" element={ <Cat6 /> } />
+					<Route path="/AdoptAnimal/CATS/until3years" element={ <FilterCat3years /> } />
+					<Route path="/AdoptAnimal/CATS/shortCoat" element={ <FilterCatShort /> } />
+					<Route path="/AdoptAnimal/CATS/mediumCoat" element={ <FilterCatMedium /> } />
+					<Route path="/AdoptAnimal/CATS/longCoat" element={ <FilterCatLong /> } />
+					<Route path="/AdoptAnimal/CATS/male" element={ <FilterCatMale /> } />
+					<Route path="/AdoptAnimal/CATS/female" element={ <FilterCatFemale /> } />
+					
 				</Routes>
 			</Router>
 

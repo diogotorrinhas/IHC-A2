@@ -19,7 +19,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 25px 10%;
-  background-color: rgb(240,240,240);
+  background-color: rgb(191, 240, 162);
   
 }
 
@@ -41,13 +41,13 @@ header{
 }
 
 .nav_links li a:hover{
-  color:red;
+  color:white;
   transition: all 0.3s ease 0s;
 }
 
 button{
   padding: 9px 25px;
-  background-color: rgb(225,225,225);
+  background-color:rgb(225, 255, 208);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -55,7 +55,7 @@ button{
 }
 
 button:hover{
-  background-color: rgb(240,240,240);
+  background-color: rgb(191, 240, 162);
 }
 
 /*botoes cao e gato*/
@@ -134,7 +134,7 @@ bodydDonate{
 	width:5000px;
 	position: relative;
 	height: 200px;
-	background: rgb(248, 248, 248);
+	background: rgb(225, 255, 208);
 	margin:100px 100px;
 	display:flex;
 	flex-direction: column;
@@ -175,7 +175,7 @@ bodydDonate{
 	width:5000px;
 	position: relative;
 	height: 200px;
-	background: rgb(248, 248, 248);
+	background: rgb(225, 255, 208);
 	margin:100px 100px;
 	display:flex;
 	flex-direction: column;

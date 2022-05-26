@@ -10,7 +10,7 @@ export default function Donate() {
           <nav>
             <ul class="nav_links">
               <li><a href="http://localhost:3000/AdoptAnimal">  Adopt Animal</a></li>
-              <li><a href="http://localhost:3000/Donate">  <b>Donate</b></a></li>
+              <li><a href="http://localhost:3000/Donate">  <hcorvermelha>Donate</hcorvermelha></a></li>
               <li><a href="http://localhost:3000/FoundAnimal">  Found Animal</a></li>
             </ul>
           </nav>

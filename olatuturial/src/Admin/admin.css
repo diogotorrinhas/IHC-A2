@@ -18,7 +18,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 25px 10%;
-  background-color: rgb(240,240,240);
+  background-color: rgb(191, 240, 162);
 
 }
 
@@ -40,22 +40,22 @@ header{
 }
 
 .nav_links li a:hover{
-  color:red;
+  color:white;
   transition: all 0.3s ease 0s;
 }
 
 button{
-  padding: 9px 25px;
-  background-color: rgb(225,225,225);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover{
-  background-color: rgb(240,240,240);
-}
+	padding: 9px 25px;
+	background-color:rgb(225, 255, 208);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+  }
+  
+  button:hover{
+	background-color: rgb(191, 240, 162);
+  }
 
 /*Login form*/
 bodyadmin{
@@ -74,7 +74,7 @@ bodyadmin{
 	width: 500px;
 	height: 330px;
 	padding: 5px;
-	background: rgb(240, 240, 240);
+	background: rgb(225, 255, 208);
 	border-radius: 10px;
 	box-shadow: 0 8px 16px rgba(0,0,0,.3);
 	display:flex;
