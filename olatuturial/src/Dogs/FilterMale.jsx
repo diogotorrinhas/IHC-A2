@@ -40,12 +40,12 @@ export default function FilterMale() {
         <bodydDogs>
         <div class= "containerdif">
           <a href="http://localhost:3000/AdoptAnimal/DOGS"><button class="btn-2">All</button></a>
-          <a href="/AdoptAnimal/DOGS/until3years"><button class="btn-2">Até 3 anos</button></a>
-          <a href="/AdoptAnimal/DOGS/short"><button class="btn-2">Porte Pequeno</button></a>
-          <a href="/AdoptAnimal/DOGS/medium"><button class="btn-2">Porte Médio</button></a>
-          <a href="/AdoptAnimal/DOGS/large"><button class="btn-2">Porte Grande</button></a>
-          <a href="/AdoptAnimal/DOGS/male"><button class="btn-2">Macho</button></a>
-          <a href="/AdoptAnimal/DOGS/female"><button class="btn-2">Fêmea</button></a>
+          <a href="/AdoptAnimal/DOGS/male"><button class="btn-2">Male</button></a>
+          <a href="/AdoptAnimal/DOGS/female"><button class="btn-2">Female</button></a>
+          <a href="/AdoptAnimal/DOGS/short"><button class="btn-2">Small Size</button></a>
+          <a href="/AdoptAnimal/DOGS/medium"><button class="btn-2">Medium Size</button></a>
+          <a href="/AdoptAnimal/DOGS/large"><button class="btn-2">Large Size</button></a>
+          <a href="/AdoptAnimal/DOGS/until3years"><button class="btn-2">Until 3 years</button></a>
         </div>
         </bodydDogs>
 

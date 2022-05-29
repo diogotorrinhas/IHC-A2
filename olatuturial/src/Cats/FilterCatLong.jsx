@@ -40,12 +40,12 @@ export default function FilterCatLong() {
         <bodydDogs>
         <div class= "containerdif">
           <a href="http://localhost:3000/AdoptAnimal/CATS"><button class="btn-2">All</button></a>
-          <a href="/AdoptAnimal/CATS/until3years"><button class="btn-2">Until 3 years</button></a>
           <a href="/AdoptAnimal/CATS/male"><button class="btn-2">Male</button></a>
           <a href="/AdoptAnimal/CATS/female"><button class="btn-2">Female</button></a>
           <a href="/AdoptAnimal/CATS/shortCoat"><button class="btn-2">Short Coat</button></a>
           <a href="/AdoptAnimal/CATS/mediumCoat"><button class="btn-2">Medium Coat</button></a>
           <a href="/AdoptAnimal/CATS/longCoat"><button class="btn-2">Long Coat</button></a>
+          <a href="/AdoptAnimal/CATS/until3years"><button class="btn-2">Until 3 years</button></a>
         </div>
         </bodydDogs>
 
