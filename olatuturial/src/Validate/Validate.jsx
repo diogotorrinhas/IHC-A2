@@ -46,13 +46,13 @@ export default function Validate() {
                         <hvalidate class="cardvalidate_raca"><b>Address:</b>Viseu</hvalidate>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonaccept">Accept</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonaccept">Accept</button>} 
                         position="top">
                         <center>Validated</center>
                         </Popup>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonreject">Reject</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonreject">Reject</button>} 
                         position="top">
                         <center>Not validated</center>
                         </Popup>
@@ -87,13 +87,13 @@ export default function Validate() {
                         <hvalidate class="cardvalidate_raca"><b>Address:</b>Algarve</hvalidate>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonaccept">Accept</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonaccept">Accept</button>} 
                         position="top">
                         <center>Validated</center>
                         </Popup>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonreject">Reject</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonreject">Reject</button>} 
                         position="top">
                         <center>Not validated</center>
                         </Popup>
@@ -129,13 +129,13 @@ export default function Validate() {
                         <hvalidate class="cardvalidate_raca"><b>Address:</b>Lisboa</hvalidate>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonaccept">Accept</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonaccept">Accept</button>} 
                         position="top">
                         <center>Validated</center>
                         </Popup>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonreject">Reject</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonreject">Reject</button>} 
                         position="top">
                         <center>Not validated</center>
                         </Popup>
@@ -172,13 +172,13 @@ export default function Validate() {
                         <hvalidate class="cardvalidate_raca"><b>Address:</b>Porto</hvalidate>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonaccept">Accept</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonaccept">Accept</button>} 
                         position="top">
                         <center>Validated</center>
                         </Popup>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonreject">Reject</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonreject">Reject</button>} 
                         position="top">
                         <center>Not validated</center>
                         </Popup>
@@ -213,13 +213,13 @@ export default function Validate() {
                         <hvalidate class="cardvalidate_raca"><b>Address:</b>Alentejo</hvalidate>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonaccept">Accept</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonaccept">Accept</button>} 
                         position="top">
                         <center>Validated</center>
                         </Popup>
                     </div>
                     <div>
-                        <Popup trigger={<buttonvalidate class="cardvalidate_buttonreject">Reject</buttonvalidate>} 
+                        <Popup trigger={<button class="cardvalidate_buttonreject">Reject</button>} 
                         position="top">
                         <center>Not validated</center>
                         </Popup>
