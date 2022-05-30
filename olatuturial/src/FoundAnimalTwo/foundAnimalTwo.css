@@ -140,12 +140,13 @@ margin-right:20px;/*change the px as per your need*/
 /* Elementos com o ID "titulo" */
 #titulo2 {
     font-family: sans-serif;
-    color: #849bc5; /* #380B61 */
+    color: rgb(191, 240, 162); /* #380B61 */
+    margin-top: -40px;
 
 }
 #subtitulo2 {
     font-family: sans-serif;
-    color: #849bc5; /* #380B61 */
+    color: rgb(191, 240, 162); /* #380B61 */
 
 }
 /* Elementos de tag <fieldset>*/

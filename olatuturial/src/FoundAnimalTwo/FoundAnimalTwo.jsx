@@ -21,7 +21,7 @@ export default function FoundAnimalTwo()  {
 					<ul class="nav_links">
 						<li><a href="http://localhost:3000/AdoptAnimal">  Adopt Animal</a></li>
 						<li><a href="http://localhost:3000/Donate">  Donate</a></li>
-						<li><a href="http://localhost:3000/FoundAnimal">  Found Animal</a></li>
+						<li><a href="http://localhost:3000/FoundAnimal">  <hcorvermelha>Found Animal</hcorvermelha></a></li>
 					</ul>
 				</nav>
 				<a class="cta" href="http://localhost:3000/Admin"><button>Admin</button></a>
@@ -31,9 +31,9 @@ export default function FoundAnimalTwo()  {
 				<div class="containerFoundAnimalTwo">
 					<div class="card">
 						<div class="imgBx">
-							<center><h3>Thank you for helping the animals!</h3></center>
-							<center><h3>Fill in the form below with your information and the animal as well!</h3></center>
-							<center><h3>And wait for the admin's validation.</h3></center>
+							<center><h3><b>Thank you for helping the animals!</b></h3></center>
+							<center><h3><b>Fill in the form below with your information and the animal as well!</b></h3></center>
+							<center><h3><b>And wait for the admin's validation.</b></h3></center>
 						</div>
 					</div>
 
@@ -42,7 +42,7 @@ export default function FoundAnimalTwo()  {
 
 
 
-			<fieldset2>
+			<bodySubmited>
 				<form>
 					<div>
 						<h1 id="titulo2"><center>The animal's information</center></h1>
@@ -113,7 +113,7 @@ export default function FoundAnimalTwo()  {
 					</Popup*/}
 
 				</form>
-			</fieldset2>
+			</bodySubmited>
 		</body>
 
 	);

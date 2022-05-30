@@ -26,7 +26,7 @@ export default function Submited(){
 					<ul class="nav_links">
 						<li><a href="http://localhost:3000/AdoptAnimal">  Adopt Animal</a></li>
 						<li><a href="http://localhost:3000/Donate">  Donate</a></li>
-						<li><a href="http://localhost:3000/FoundAnimal">  Found Animal</a></li>
+						<li><a href="http://localhost:3000/FoundAnimal">  <hcorvermelha>Found Animal</hcorvermelha></a></li>
 					</ul>
 				</nav>
 				<a class="cta" href="http://localhost:3000/Admin"><button>Admin</button></a>
@@ -36,14 +36,14 @@ export default function Submited(){
 				<div class="containerSubmited">
 					<div class="card">
 						<div class="imgBx">
-							<center><h3>Form submitted successfully!</h3></center>
-							<center><h3>Your information has been successfully submitted!</h3></center>
+							<center><h3><b>Form submitted successfully!</b></h3></center>
+							<center><h3><b>Your information has been successfully submitted!</b></h3></center>
 						</div>
 					</div>
 				</div>
 			</bodySubmited>
 
-			<fieldsetSubmited2>
+			<bodySubmited>
 				<form>
 					<fieldsetSubmited class="grupoSubmitedUser">
 						<div class="campoSubmitedUser">
@@ -79,7 +79,7 @@ export default function Submited(){
 					<a href="http://localhost:3000/FoundAnimalTwo"><button class="botaoSubmited" type="button">Next</button></a>
 
 				</form>
-			</fieldsetSubmited2>
+			</bodySubmited>
 
 		</body>
 
