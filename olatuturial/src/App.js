@@ -32,6 +32,9 @@ import FilterCatMedium from "./Cats/FilterCatMedium"
 import FilterCatLong from "./Cats/FilterCatLong"
 import FilterCatMale from "./Cats/FilterCatMale"
 import FilterCatFemale from "./Cats/FilterCatFemale"
+import FoundAnimalTwo from "./FoundAnimalTwo/FoundAnimalTwo"
+import Submited from "./Submited/Submited"
+import Submited2 from "./Submited2/Submited2"
 
 
 function App() {
@@ -46,6 +49,9 @@ function App() {
 					<Route path="/AdoptAnimal" element={ <AdoptAnimal /> } />
 					<Route path="/Donate" element={ <Donate /> } />
 					<Route path="/FoundAnimal" element={ <FoundAnimal /> } />
+					<Route path="/FoundAnimalTwo" element={ <FoundAnimalTwo /> } />
+                    <Route path="/Submited" element={ <Submited /> } />
+                    <Route path="/Submited2" element={ <Submited2 /> } />
 					<Route path="/Admin" element={ <Admin /> } />
 					<Route path="/Validate" element={ <Validate /> } />
 					<Route path="/AdoptAnimal/DOGS" element={ <Dogs /> } />
