@@ -61,7 +61,7 @@ h1{
   /*botoes cao e gato*/
   
   .btn{
-    border: 1px solid #3498db;
+    border: 1px solid rgb(191, 240, 162);
     background: none;
     padding: 10px 20px;
     font-size: 30px;
@@ -72,7 +72,7 @@ h1{
   }
   
   .btn1{
-    border: 1px solid #3498db;
+    border: 1px solid rgb(191, 240, 162);
     background: none;
     padding: 10px 20px;
     font-size: 30px;
