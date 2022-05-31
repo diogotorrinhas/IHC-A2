@@ -89,33 +89,37 @@ export default function Slider5() {
         <bodydSlider>
         <div class="containerSlider">
 
-            <div class="card">
-                <div class="imgBx">
-                    <center><h3><b>Name:</b>&nbsp;Lana</h3></center>
-                    <center><h3><b>Breed:</b>&nbsp;Rafeiro</h3></center>
-                    <center><h3><b>Sex:</b>&nbsp;Female</h3></center>
-                    <center><h3><b>Age:</b>&nbsp;7 years</h3></center>
-                    <center><h3><b>Size:</b>&nbsp;Medium</h3></center>
-                    <center><h3><b>Vaccines:</b></h3></center>
-                    <center><h3>Vaccinated and Sterilized</h3></center>
-                    <center><h3><b>More Information:</b></h3></center>
-                    <center><h3>Hyperactive, Playful, Loves to walk, Loves to Sleep</h3></center>
-                </div>
-            </div>
+            <div>
+                <input type="radio" name="sushi-lunch" id="happy-radio"/>
+                <input type="radio" name="sushi-lunch" id="lovers-radio" checked/>
 
-            <div class="cardHolder">
-                <center><h3><b>Holder:</b>Person</h3></center>
-                <div class="imgBxHolder">
-                    <img src="https://img2.gratispng.com/20180509/klq/kisspng-person-logo-computer-icons-5af2c2026fcf79.460327751525858818458.jpg" class="gato"
-                    alt=""/>
-                </div>
-                <div class="textHolder">
-                    <center><h3><b>Name:</b>&nbsp;Lara Almeida</h3></center>
-                    <center><h3><b>Email:</b></h3></center>
-                    <center><h3>laraAlmeida@gmail.com</h3></center>
-                    <center><h3><b>Nº Telefone:</b>&nbsp;914589196</h3>
-                    </center><center><h3><b>Morada:</b></h3></center>
-                    <center><h3>R. de Angola 12 r/c Esq, 8500-547 Portimão</h3></center>
+                <div class="selector">
+                    <label for="happy-radio" class="happy-card">
+                    <h1>Name: Lana</h1>
+                    <ul>
+                        <li><b>Breed:</b>Rafeiro</li>
+                        <li><b>Sex:</b>Female</li>
+                        <li><b>Age:</b>7 Years</li>
+                        <li><b>Size:</b>Medium</li>
+                        <li><b>Vaccines:</b>Vaccinated and Sterilized</li>
+                        <li><b>More Information:</b>Playful, Hyperactive, Loves to Walk, Loves to sleep</li>
+                        
+
+                    </ul>
+                    </label>
+
+                    <label for="lovers-radio" class="lovers-card">
+                    <h1>Holder: Person</h1>
+                    <ul>
+                        <li><b>Name:</b>Lara Almeida</li>
+                        <li><b>Email:</b> laraAlmei@gmail.com</li>
+                        <li><b>Telefone:</b>914589196</li>
+                        <li><b>Morada:</b>R. de Angola 12 r/c Esq, 8500-547 Portimão</li>
+                    </ul>
+                    </label>
+                    
+                    <label for="happy-radio" class="happy-pick">Switch to Animal information!</label>
+                    <label for="lovers-radio" class="lovers-pick">Switch to Holder Information!</label>
                 </div>
             </div>
 

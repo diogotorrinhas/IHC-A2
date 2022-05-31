@@ -89,33 +89,39 @@ export default function Slider1() {
         <bodydSlider>
         <div class="containerSlider">
 
-            <div class="card">
-                <div class="imgBx">
-                    <center><h3><b>Name:</b>&nbsp;Kiko</h3></center>
-                    <center><h3><b>Breed:</b>&nbsp;Rafeiro</h3></center>
-                    <center><h3><b>Sex:</b>&nbsp;Male</h3></center>
-                    <center><h3><b>Age:</b>&nbsp;4 Weeks</h3></center>
-                    <center><h3><b>Size:</b>&nbsp;Medium</h3></center>
-                    <center><h3><b>Vaccines:</b></h3></center>
-                    <center><h3>Vaccinated and Sterilized</h3></center>
-                    <center><h3><b>More Information:</b></h3></center>
-                    <center><h3>Hyperactive, Playful, Loves to walk, Only eats dog food</h3></center>
-                </div>
-            </div>
+            
+            
+            <div>
+                <input type="radio" name="sushi-lunch" id="happy-radio"/>
+                <input type="radio" name="sushi-lunch" id="lovers-radio" checked/>
 
-            <div class="cardHolder">
-                <center><h3><b>Holder:</b>Person</h3></center>
-                <div class="imgBxHolder">
-                    <img src="https://img2.gratispng.com/20180509/klq/kisspng-person-logo-computer-icons-5af2c2026fcf79.460327751525858818458.jpg" class="gato"
-                    alt=""/>
-                </div>
-                <div class="textHolder">
-                    <center><h3><b>Name:</b>&nbsp;Joana Sousa</h3></center>
-                    <center><h3><b>Email:</b></h3></center>
-                    <center><h3>joanasousa@gmail.com</h3></center>
-                    <center><h3><b>Nº Telefone:</b>&nbsp;914583296</h3>
-                    </center><center><h3><b>Morada:</b></h3></center>
-                    <center><h3>R. do Eng. Carlos Boia 12, 3810-702 Aveiro</h3></center>
+                <div class="selector">
+                    <label for="happy-radio" class="happy-card">
+                    <h1>Name: Kiko</h1>
+                    <ul>
+                        <li><b>Breed:</b>Rafeiro</li>
+                        <li><b>Sex:</b>Male</li>
+                        <li><b>Age:</b>4 Weeks</li>
+                        <li><b>Size:</b>Medium</li>
+                        <li><b>Vaccines:</b>Vaccinated and Sterilized</li>
+                        <li><b>More Information:</b>Playful, Hyperactive, Loves to walk, Only eats dog food</li>
+                        
+
+                    </ul>
+                    </label>
+
+                    <label for="lovers-radio" class="lovers-card">
+                    <h1>Holder: Person</h1>
+                    <ul>
+                        <li><b>Name:</b>Joana Sousa</li>
+                        <li><b>Email:</b> joanasousa@gmail.com</li>
+                        <li><b>Telefone:</b>914583296</li>
+                        <li><b>Morada:</b>R. do Eng. Carlos Boia 12, 3810-702 Aveiro</li>
+                    </ul>
+                    </label>
+                    
+                    <label for="happy-radio" class="happy-pick">Switch to Animal information!</label>
+                    <label for="lovers-radio" class="lovers-pick">Switch to Holder Information!</label>
                 </div>
             </div>
 

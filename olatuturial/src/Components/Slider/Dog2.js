@@ -89,33 +89,37 @@ export default function Slider2() {
         <bodydSlider>
         <div class="containerSlider">
 
-            <div class="card">
-                <div class="imgBx">
-                    <center><h3><b>Name:</b>&nbsp;Luna</h3></center>
-                    <center><h3><b>Breed:</b>&nbsp;Cane Corso</h3></center>
-                    <center><h3><b>Sex:</b>&nbsp;Female</h3></center>
-                    <center><h3><b>Age:</b>&nbsp;2 Years</h3></center>
-                    <center><h3><b>Size:</b>&nbsp;Large</h3></center>
-                    <center><h3><b>Vaccines:</b></h3></center>
-                    <center><h3>Vaccinated and Sterilized</h3></center>
-                    <center><h3><b>More Information:</b></h3></center>
-                    <center><h3>Hyperactive, Playful, Loves to walk</h3></center>
-                </div>
-            </div>
+            <div>
+                <input type="radio" name="sushi-lunch" id="happy-radio"/>
+                <input type="radio" name="sushi-lunch" id="lovers-radio" checked/>
 
-            <div class="cardHolder">
-                <center><h3><b>Holder:</b>Person</h3></center>
-                <div class="imgBxHolder">
-                    <img src="https://img2.gratispng.com/20180509/klq/kisspng-person-logo-computer-icons-5af2c2026fcf79.460327751525858818458.jpg" class="gato"
-                    alt=""/>
-                </div>
-                <div class="textHolder">
-                    <center><h3><b>Name:</b>&nbsp;Rodrigo</h3></center>
-                    <center><h3><b>Email:</b></h3></center>
-                    <center><h3>rodrigo123@gmail.com</h3></center>
-                    <center><h3><b>Nº Telefone:</b>&nbsp;914363296</h3>
-                    </center><center><h3><b>Morada:</b></h3></center>
-                    <center><h3>Rua do Brasil 320, 3030-243 Coimbra</h3></center>
+                <div class="selector">
+                    <label for="happy-radio" class="happy-card">
+                    <h1>Name: Luna</h1>
+                    <ul>
+                        <li><b>Breed:</b>Cane Corso</li>
+                        <li><b>Sex:</b>Male</li>
+                        <li><b>Age:</b>2 Years</li>
+                        <li><b>Size:</b>Large</li>
+                        <li><b>Vaccines:</b>Vaccinated and Sterilized</li>
+                        <li><b>More Information:</b>Playful, Hyperactive, Loves to walk</li>
+                        
+
+                    </ul>
+                    </label>
+
+                    <label for="lovers-radio" class="lovers-card">
+                    <h1>Holder: Person</h1>
+                    <ul>
+                        <li><b>Name:</b>Rodrigo</li>
+                        <li><b>Email:</b> rodrigo123@gmail.com</li>
+                        <li><b>Telefone:</b>914363296</li>
+                        <li><b>Morada:</b>Rua do Brasil 320, 3030-243 Coimbra</li>
+                    </ul>
+                    </label>
+                    
+                    <label for="happy-radio" class="happy-pick">Switch to Animal information!</label>
+                    <label for="lovers-radio" class="lovers-pick">Switch to Holder Information!</label>
                 </div>
             </div>
 

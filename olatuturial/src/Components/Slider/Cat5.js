@@ -89,33 +89,37 @@ export default function Cat5() {
         <bodydSlider>
         <div class="containerSlider">
 
-            <div class="card">
-                <div class="imgBx">
-                    <center><h3><b>Name:</b>&nbsp;Baunilha</h3></center>
-                    <center><h3><b>Breed:</b>&nbsp;None</h3></center>
-                    <center><h3><b>Sex:</b>&nbsp;Female</h3></center>
-                    <center><h3><b>Age:</b>&nbsp;7 Years</h3></center>
-                    <center><h3><b>Coat type:</b>&nbsp;Medium</h3></center>
-                    <center><h3><b>Vaccines:</b></h3></center>
-                    <center><h3>Vaccinated and Sterilized</h3></center>
-                    <center><h3><b>More Information:</b></h3></center>
-                    <center><h3>Loves to Sleep, Loves to play with a ball, Don't like to wear a collar</h3></center>
-                </div>
-            </div>
+            <div>
+                <input type="radio" name="sushi-lunch" id="happy-radio"/>
+                <input type="radio" name="sushi-lunch" id="lovers-radio" checked/>
 
-            <div class="cardHolder">
-                <center><h3><b>Holder:</b>Person</h3></center>
-                <div class="imgBxHolder">
-                    <img src="https://img2.gratispng.com/20180509/klq/kisspng-person-logo-computer-icons-5af2c2026fcf79.460327751525858818458.jpg" class="gato"
-                    alt=""/>
-                </div>
-                <div class="textHolder">
-                    <center><h3><b>Name:</b>&nbsp;Tiago Fernandes</h3></center>
-                    <center><h3><b>Email:</b></h3></center>
-                    <center><h3>tiagofernandes@gmail.com</h3></center>
-                    <center><h3><b>Nº Telefone:</b>&nbsp;914383781</h3>
-                    </center><center><h3><b>Morada:</b></h3></center>
-                    <center><h3>R. de Angola 12 r/c Esq, 8500-547 Portimão</h3></center>
+                <div class="selector">
+                    <label for="happy-radio" class="happy-card">
+                    <h1>Name: Baunilha</h1>
+                    <ul>
+                        <li><b>Breed:</b>None</li>
+                        <li><b>Sex:</b>Female</li>
+                        <li><b>Age:</b>7 Years</li>
+                        <li><b>Coat Type</b>Medium</li>
+                        <li><b>Vaccines:</b>Vaccinated and Sterilized</li>
+                        <li><b>More Information:</b>Loves to Sleep, Loves to play with a ball, Don't like to wear a collar</li>
+                        
+
+                    </ul>
+                    </label>
+
+                    <label for="lovers-radio" class="lovers-card">
+                    <h1>Holder: Person</h1>
+                    <ul>
+                        <li><b>Name:</b>Tiago Fernandes</li>
+                        <li><b>Email:</b> tiagofern@gmail.com</li>
+                        <li><b>Telefone:</b>914383781</li>
+                        <li><b>Morada:</b>R. de Angola 12 r/c Esq, 8500-547 Portimão</li>
+                    </ul>
+                    </label>
+                    
+                    <label for="happy-radio" class="happy-pick">Switch to Animal information!</label>
+                    <label for="lovers-radio" class="lovers-pick">Switch to Holder Information!</label>
                 </div>
             </div>
 

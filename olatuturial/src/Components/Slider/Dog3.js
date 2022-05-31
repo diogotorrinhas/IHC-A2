@@ -88,36 +88,39 @@ export default function Slider3() {
         
         <bodydSlider>
         <div class="containerSlider">
+            
+            <div>
+                <input type="radio" name="sushi-lunch" id="happy-radio"/>
+                <input type="radio" name="sushi-lunch" id="lovers-radio" checked/>
 
-            <div class="card">
-                <div class="imgBx">
-                    <center><h3><b>Name:</b>&nbsp;Nico</h3></center>
-                    <center><h3><b>Breed:</b>&nbsp;Pastor Alemão</h3></center>
-                    <center><h3><b>Sex:</b>&nbsp;Male</h3></center>
-                    <center><h3><b>Age:</b>&nbsp;5 Years</h3></center>
-                    <center><h3><b>Size:</b>&nbsp;Large</h3></center>
-                    <center><h3><b>Vaccines:</b></h3></center>
-                    <center><h3>Vaccinated and Sterilized</h3></center>
-                    <center><h3><b>More Information:</b></h3></center>
-                    <center><h3>Hyperactive, Playful, Loves to walk, Loves to play with a ball</h3></center>
+                <div class="selector">
+                    <label for="happy-radio" class="happy-card">
+                    <h1>Name: Nico</h1>
+                    <ul>
+                        <li><b>Breed:</b>Pastor Alemão</li>
+                        <li><b>Sex:</b>Male</li>
+                        <li><b>Age:</b>5 Years</li>
+                        <li><b>Size:</b>Large</li>
+                        <li><b>Vaccines:</b>Vaccinated and Sterilized</li>
+                        <li><b>More Information:</b>Playful, Hyperactive, Loves to walk, Loves to play with a ball</li>
+                        
+
+                    </ul>
+                    </label>
+
+                    <label for="lovers-radio" class="lovers-card">
+                    <h1>Holder: Institution</h1>
+                    <ul>
+                        <li><b>Email:</b> animalsIst@gmail.com</li>
+                        <li><b>Telefone:</b>924759488</li>
+                        <li><b>Morada:</b>Ornimundo, R. Dom Manuel Barbuda e Vasconcelos 18.2, 3810-498 Aveiro</li>
+                    </ul>
+                    </label>
+                    
+                    <label for="happy-radio" class="happy-pick">Switch to Animal information!</label>
+                    <label for="lovers-radio" class="lovers-pick">Switch to Holder Information!</label>
                 </div>
             </div>
-
-            <div class="cardHolder">
-                <center><h3><b>Holder:</b>Institution</h3></center>
-                <div class="imgBxHolder">
-                    <img src="https://img2.gratispng.com/20180509/klq/kisspng-person-logo-computer-icons-5af2c2026fcf79.460327751525858818458.jpg" class="gato"
-                    alt=""/>
-                </div>
-                <div class="textHolder">
-                    <center><h3><b>Email:</b></h3></center>
-                    <center><h3>animalsInstit@gmail.com</h3></center>
-                    <center><h3><b>Nº Telefone:</b>&nbsp;924759488</h3>
-                    </center><center><h3><b>Morada:</b></h3></center>
-                    <center><h3>Ornimundo, R. Dom Manuel Barbuda e Vasconcelos 18.2, 3810-498 Aveiro</h3></center>
-                </div>
-            </div>
-
 
         </div>
         </bodydSlider>
