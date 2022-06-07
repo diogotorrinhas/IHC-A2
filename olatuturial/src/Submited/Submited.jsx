@@ -36,8 +36,8 @@ export default function Submited(){
 				<div class="containerSubmited">
 					<div class="card">
 						<div class="imgBx">
-							<center><h3><b>Form submitted successfully!</b></h3></center>
-							<center><h3><b>Your information has been successfully submitted!</b></h3></center>
+							<center><h3>Are you sure you want to submit this information?</h3></center>
+							<center><h3>If you want press next otherwise press previous </h3></center>
 						</div>
 					</div>
 				</div>
@@ -76,6 +76,7 @@ export default function Submited(){
 						</div>
 					</fieldsetSubmited>
 
+					<a href="http://localhost:3000/FoundAnimal"><button class="botaoSubmited" type="button">Previous</button></a>
 					<a href="http://localhost:3000/FoundAnimalTwo"><button class="botaoSubmited" type="button">Next</button></a>
 
 				</form>

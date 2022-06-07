@@ -34,8 +34,8 @@ export default function FoundAnimal() {
 					<div class="card">
 						<div class="imgBx">
 							<center><h3><b>Thank you for helping the animals!</b></h3></center>
-							<center><h3><b>Fill in the form below with your information and the animal as well!</b></h3></center>
-							<center><h3><b>And wait for the admin's validation.</b></h3></center>
+							<center><h3>Fill in the form below with your information!</h3></center>
+							<center><h3>And wait for the admin's validation.</h3></center>
 						</div>
 					</div>
 
@@ -96,7 +96,7 @@ export default function FoundAnimal() {
 						
 					</div>
 					
-					<button class="botaofoundanimal" type="button"><Link to="/Submited" state={ dataUser }> Submit </Link></button>
+					<button class="botaofoundanimal" type="button"><Link to="/Submited" state={ dataUser }> Next </Link></button>
 					
 				</form>
 			</bodySubmited>

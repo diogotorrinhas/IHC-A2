@@ -32,8 +32,8 @@ export default function FoundAnimalTwo()  {
 					<div class="card">
 						<div class="imgBx">
 							<center><h3><b>Thank you for helping the animals!</b></h3></center>
-							<center><h3><b>Fill in the form below with your information and the animal as well!</b></h3></center>
-							<center><h3><b>And wait for the admin's validation.</b></h3></center>
+							<center><h3>Fill in the form below with the animal information!</h3></center>
+							<center><h3>And wait for the admin's validation.</h3></center>
 						</div>
 					</div>
 
@@ -105,7 +105,7 @@ export default function FoundAnimalTwo()  {
 						<label><strong>More information: </strong></label>
 						<textarea rows="4" cols="50" id="informacao2" name="informacao2" value={moreInformationAnimal} onChange={(e)=>{setmoreInfoAnimal(e.target.value);}}></textarea>
 					</div>
-					<button class="botaofoundanimal" type="button"><Link to="/Submited2" state={dataAnimal}> Submit </Link></button>
+					<button class="botaofoundanimal" type="button"><Link to="/Submited2" state={dataAnimal}> Next </Link></button>
 					{/*<a href="http://localhost:3000/Submited"><button class="botao" type="button">Submit</button></a>*/ }
 
 					{/*<Popup trigger={ <button class="botao" type="submit">Submit</button> } position="right center">

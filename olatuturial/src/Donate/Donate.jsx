@@ -31,9 +31,9 @@ export default function Donate() {
             <div class="card">
                 <div class="imgBx">
                     <center><h3><b>Welcome to the Donation Page!</b></h3></center>
-                    <center><h3><b>Help The Animals!</b></h3></center>
-                    <center><h3><b>All the money will be used only for Animal Care!</b></h3></center>
-                    <center><h3><b>You can donate by the methods shown below!</b></h3></center>
+                    <center><h3>Help The Animals!</h3></center>
+                    <center><h3>All the money will be used only for Animal Care!</h3></center>
+                    <center><h3>You can donate by the methods shown below!</h3></center>
                 </div>
             </div>
 

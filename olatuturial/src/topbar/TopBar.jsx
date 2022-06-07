@@ -29,7 +29,7 @@ export default function Topbar() {
       </div>
 
 
-      <center><h2>Welcome</h2></center>
+      <center><h2>Welcome to Our Institution!</h2></center>
 
     <bodyHomePage>
       <div class="containerHomePage">
@@ -37,9 +37,12 @@ export default function Topbar() {
 			<div class="card">
 				<div class="imgBx">
 					
-					<img src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg"
-					alt=""/>
-          <p><center>If you are interested in finding an animal to adopt, you are in the right place. Never forget an adoption has to be responsible!</center>
+					<a href="http://localhost:3000/AdoptAnimal"><img src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg"
+					alt=""/></a>
+          <h3><b>Adopt an Animal!</b></h3>
+          <p><center>Adopt an Animal!</center>
+					</p>
+          <p><center>Never forget an adoption has to be responsible!</center>
 					</p>
 					
 				</div>
@@ -48,22 +51,24 @@ export default function Topbar() {
 			<div class="card">
 				<div class="imgBx">
 					
-					<img src="https://static.vecteezy.com/system/resources/previews/001/843/828/non_2x/donate-money-for-charity-design-illustration-isolated-on-white-background-free-vector.jpg"
-					alt=""/>
+					<a href="http://localhost:3000/Donate"><img src="https://static.vecteezy.com/system/resources/previews/001/843/828/non_2x/donate-money-for-charity-design-illustration-isolated-on-white-background-free-vector.jpg"
+					alt=""/></a>
+          <h3><b>Donation!</b></h3>
 					<p><center>Help the animals! Donate to Us! </center>
 					</p>
-          <p><center>All the money will go entirely to the animals. Such as: Medical care, food, wellness, etc!</center>
+          <p><center>All the money will go entirely to the animals.</center>
 					</p>
 
 				</div>	
 			</div>	
 			
 			<div class="card">
-				<div class="imgBx">
+				<div class="imgBx2">
 					
-					<img src="https://thumbs.dreamstime.com/b/boston-terrier-puppy-holding-adopt-me-sign-cute-seven-week-old-standing-cardboard-says-please-rescue-54649223.jpg"
-					alt=""/>
-					<p><center>If you find an animal on the street in need of help, please don't be indifferent and help him!</center>
+					<a href="http://localhost:3000/FoundAnimal"><img src="https://thumbs.dreamstime.com/b/boston-terrier-puppy-holding-adopt-me-sign-cute-seven-week-old-standing-cardboard-says-please-rescue-54649223.jpg"
+					alt=""/></a>
+          <h3><b>Rescue an Animal!</b></h3>
+					<p><center>If you find an abandoned animal, rescue it and put it on our website!</center>
 					</p>
           
 				</div>	

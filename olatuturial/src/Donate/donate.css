@@ -133,7 +133,7 @@ bodydDonate{
 .containerDonate .card{
 	width:5000px;
 	position: relative;
-	height: 200px;
+	height: 140px;
 	background: rgb(225, 255, 208);
 	margin:100px 100px;
 	display:flex;
@@ -147,7 +147,7 @@ bodydDonate{
 	position: relative;
 	width:1000px;
 	height: 5000px;
-	top: 40px;
+	top: 20px;
 	left:0px;
 	
 }

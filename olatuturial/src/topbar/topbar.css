@@ -116,9 +116,25 @@ bodyHomePage{
 	
 }
 
+.containerHomePage .card .imgBx2{
+	position: relative;
+	width:260px;
+	height: 260px;
+	top: 20px;
+	left:20px;
+	
+}
+
 .containerHomePage .card .imgBx img
 {
 	max-width: 100%;
+	border-radius: 10px;
+}
+
+.containerHomePage .card .imgBx2 img
+{
+	width: 260px;
+  height: 265px;
 	border-radius: 10px;
 }
 
